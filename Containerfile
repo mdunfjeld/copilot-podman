@@ -21,6 +21,8 @@ RUN apt-get update && apt-get install -y \
     gnupg \
     build-essential \
     adb \
+    apktool \
+    golang \
     && rm -rf /var/lib/apt/lists/*
 
 # ---- Sudo for ubuntu user ----
