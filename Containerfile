@@ -23,6 +23,8 @@ RUN apt-get update && apt-get install -y \
     adb \
     apktool \
     golang \
+    zipalign \
+    apksigner \
     && rm -rf /var/lib/apt/lists/*
 
 # ---- Sudo for ubuntu user ----
